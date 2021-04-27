@@ -19,6 +19,18 @@ gives me a faster edit-check feedback cycle.
 
 Use inline-edit or a new page.
 
+# Create simple APIs for testing
+
+You want to share an idea or problem with other people. For example in a Github issue or a
+StackOverflow question. But you sample code needs a server to make it reproduceable?
+
+[mocky](https://designer.mocky.io/) is a simple service to generate static responses.
+
+# html fragments over the wire
+
+There are alternatives to modern frontend libraries like React/Vue: [htmx](//htmx.org). Just
+send HTML fragments over the wire. It is simple and fast.
+
 # Related
 
 * [Güttli's opinionated Django Tips](https://github.com/guettli/django-tips)
