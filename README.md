@@ -38,8 +38,8 @@ If you use a third party library via a CDN, then use a hash, so that you are saf
 Example:
 
 ```
-<script src="https://unpkg.com/htmx.org@1.1.0"
-        integrity="sha384-JVb/MVb+DiMDoxpTmoXWmMYSpQD2Z/1yiruL8+vC6Ri9lk6ORGiQqKSqfmCBbpbX" 
+<script src="https://unpkg.com/htmx.org@1.4.1/dist/htmx.min.js" 
+        integrity="sha384-1P2DfVFAJH2XsYTakfc6eNhTVtyio74YNA1tc6waJ0bO+IfaexSWXc2x62TgBcXe" 
         crossorigin="anonymous"></script>
 ```
 
