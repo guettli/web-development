@@ -31,6 +31,19 @@ StackOverflow question. But you sample code needs a server to make it reproducea
 There are alternatives to modern frontend libraries like React/Vue: [htmx](//htmx.org). Just
 send HTML fragments over the wire. It is simple and fast.
 
+# SRI Hash Calculator
+
+If you use a third party library via a CDN, then use a hash, so that you are safe if the CDN got hacked.
+
+Example:
+
+```
+<script src="https://unpkg.com/htmx.org@1.1.0" integrity="sha384-JVb/MVb+DiMDoxpTmoXWmMYSpQD2Z/1yiruL8+vC6Ri9lk6ORGiQqKSqfmCBbpbX" crossorigin="anonymous"></script>
+```
+
+[SRI Hash Generator](https://www.srihash.org/)
+
+
 # JS Libraries
 
 ## tom-select
