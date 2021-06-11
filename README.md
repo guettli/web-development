@@ -38,7 +38,9 @@ If you use a third party library via a CDN, then use a hash, so that you are saf
 Example:
 
 ```
-<script src="https://unpkg.com/htmx.org@1.1.0" integrity="sha384-JVb/MVb+DiMDoxpTmoXWmMYSpQD2Z/1yiruL8+vC6Ri9lk6ORGiQqKSqfmCBbpbX" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org@1.1.0"
+        integrity="sha384-JVb/MVb+DiMDoxpTmoXWmMYSpQD2Z/1yiruL8+vC6Ri9lk6ORGiQqKSqfmCBbpbX" 
+        crossorigin="anonymous"></script>
 ```
 
 [SRI Hash Generator](https://www.srihash.org/)
