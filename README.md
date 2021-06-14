@@ -10,7 +10,7 @@ In the network-tab of the devtools enable "Slow 3G" from time to time to see how
 
 ctrl-shift-i Inspect element. Three dots: Store in global variable: temp1. Then in console: temp1.classList.add('foo')
 
-`$(...)` is the shortcut for `document.getQuerySelctor(...)`.
+`$(...)` is the shortcut for `document.querySelector(...)`.
 
 # Fast feedback cycle
 
