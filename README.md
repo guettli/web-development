@@ -4,11 +4,13 @@ This is an opinionated list about web development
 
 # Chrome devtools
 
-Use Chrome. The [devtools](https://developers.google.com/web/tools/chrome-devtools) are great.
+Use Chrome. The [devtools](https://developer.chrome.com/docs/devtools) are great.
 
 In the network-tab of the devtools enable "Slow 3G" from time to time to see how your page behaves on slow networks.
 
 ctrl-shift-i Inspect element. Three dots: Store in global variable: temp1. Then in console: temp1.classList.add('foo')
+
+`$(...)` is the shortcut for `document.getQuerySelctor(...)`.
 
 # Fast feedback cycle
 
