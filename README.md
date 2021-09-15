@@ -55,7 +55,7 @@ Example:
 
 https://tom-select.js.org/
 
-> Tom Select is a versatile and dynamic <select> UI control. With autocomplete and native-feeling keyboard navigation, it's useful for tagging, contact lists, country selectors, and so on. Tom Select was forked from selectize.js with four main objectives: modernizing the code base, decoupling from jQuery, expanding functionality, and addressing issue backlogs.
+> Tom Select is a versatile and dynamic `<select>` UI control. With autocomplete and native-feeling keyboard navigation, it's useful for tagging, contact lists, country selectors, and so on. Tom Select was forked from selectize.js with four main objectives: modernizing the code base, decoupling from jQuery, expanding functionality, and addressing issue backlogs.
 
 
 # Related
