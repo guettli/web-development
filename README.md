@@ -12,6 +12,8 @@ ctrl-shift-i Inspect element. Three dots: Store in global variable: temp1. Then 
 
 `$(...)` is the shortcut for `document.querySelector(...)`.
 
+You want to debug something which is only visible if you hover it? Catching this might not be possible with the normal element selection. But you can use (in Element Tab) "Break on" "subtree modifications"
+
 # Fast feedback cycle
 
 To get CSS right, I often change the CSS via Chrome devtools and not via IDE. After I found the matching CSS I copy it to my IDE. This
