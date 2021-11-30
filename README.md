@@ -49,6 +49,12 @@ Example:
 
 [SRI Hash Generator](https://www.srihash.org/)
 
+# Download via http-GET, not http-POST
+
+There is a very old bug in Chromium which makes troubles if you want to download a PDF
+which the browser receive via http-POST: https://bugs.chromium.org/p/chromium/issues/detail?id=158957
+
+This means you should sent PDF (and other formats the user might want to "save as") via http-GET, not http-POST.
 
 # JS Libraries
 
