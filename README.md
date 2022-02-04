@@ -58,7 +58,7 @@ This means you should sent PDF (and other formats the user might want to "save a
 
 # `<br>`
 
-Use `<br>`, ot `<br />` or other outdated ways to create a line-break.
+Use `<br>`, not `<br />` or other outdated ways to create a line-break.
 
 
 # JS Libraries
