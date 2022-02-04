@@ -56,6 +56,11 @@ which the browser receive via http-POST: https://bugs.chromium.org/p/chromium/is
 
 This means you should sent PDF (and other formats the user might want to "save as") via http-GET, not http-POST.
 
+# <br>
+
+Use `<br>`, ot `<br />` or other outdated ways to create a line-break.
+
+
 # JS Libraries
 
 ## tom-select
