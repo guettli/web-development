@@ -60,6 +60,8 @@ This means you should sent PDF (and other formats the user might want to "save a
 
 Use `<br>`, not `<br />` or other outdated ways to create a line-break.
 
+HTML is not a subset of XML.
+
 
 # JS Libraries
 
