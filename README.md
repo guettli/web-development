@@ -68,6 +68,15 @@ Same for `<li>`: No need to close it.
 
 Source: https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element
 
+# Tunnel for localhost
+
+I want to provide a customer/product-owner/team-mate the current state of your work? Some companies have solved this, and you can easily create feature systems. Many companies have not solved this yet.
+
+You can help yourself with a tunnel. There are many options. See [awesome tunneling](https://github.com/anderspitman/awesome-tunneling)
+
+And don't forget to speak up and engage, so that your employer provides a solid solution. Tunneling to localhost is just a dirty work-around. If you switch off your laptop because you commute by train, then you customer/product-owner/team-mate  won't be able to access the system.
+
+
 # JS Libraries
 
 ## tom-select
