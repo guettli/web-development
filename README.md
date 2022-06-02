@@ -77,14 +77,26 @@ You can help yourself with a tunnel. There are many options. See [awesome tunnel
 And don't forget to speak up and engage, so that your employer provides a solid solution. Tunneling to localhost is just a dirty work-around. If you switch off your laptop because you commute by train, then you customer/product-owner/team-mate  won't be able to access the system.
 
 
-# JS Libraries
+# A page should be "for public" XOR "for authenticated users"
 
-## tom-select
+A page should be public (accessible without a login) or it should be only available for authenticated users.
+
+If a page tries to serve both use cases, you might confuse your users.
+
+Imagine you show a list of items. If the user is authenticated, he can see all items. If he is not authenticated,
+he only sees some items. Today Bob logins in with his laptop, and sees all items. He takes a bookmark of his page. Bob
+uses a bookmark manager, and in the evening he opens the page again on his tablet. But what has happened? Bob is
+confused, since he sees only a limited number of items, not all.
+
+This could be solved easily if you have two URLs, one URL for the authenticated access, one for the unauthenticated access. Because
+with two URLs, you can redirect Bob to the login page if no login credentials are provided.
+
+Sometimes it makes sense to provide a page for both use cases, but then be sure that the users sees immediately the difference. In above
+example (a page with limit list of items) the user does not see the difference immediately.
 
 
-https://tom-select.js.org/
 
-> Tom Select is a versatile and dynamic `<select>` UI control. With autocomplete and native-feeling keyboard navigation, it's useful for tagging, contact lists, country selectors, and so on. Tom Select was forked from selectize.js with four main objectives: modernizing the code base, decoupling from jQuery, expanding functionality, and addressing issue backlogs.
+
 
 
 # Related
