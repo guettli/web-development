@@ -96,7 +96,11 @@ example (a page with limit list of items) the user does not see the difference i
 
 
 
+# Dummy Image Generator
 
+Any size, any color:
+
+https://dummyimage.com/
 
 
 # Related
