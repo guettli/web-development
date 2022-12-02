@@ -94,7 +94,15 @@ with two URLs, you can redirect Bob to the login page if no login credentials ar
 Sometimes it makes sense to provide a page for both use cases, but then be sure that the users sees immediately the difference. In above
 example (a page with limit list of items) the user does not see the difference immediately.
 
+# Avoid subdirectories for js and css.
 
+I look at this legacy code `<link rel="stylesheet" href=".../js/videojs/video-js.min.css">`
+
+Do you see `.../js/`?
+
+Things like this will happen if you split js and css files into seperate sub-directories.
+
+It is perfectly fine to have both file types in one directory.
 
 # Dummy Image Generator
 
